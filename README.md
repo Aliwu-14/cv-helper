@@ -15,27 +15,6 @@
 
 全部收集完成后，Agent 会研究公司 + 生成六段模块简历（个人总结 / 基本信息 / 教育 / 经历 / 技能 / 奖项） + 跑 ATS 校验 + 让用户迭代。
 
-## 功能概览
-
-| 文件 | 说明 |
-|------|------|
-| `SKILL.md` | Skill 入口文件，定义触发条件、开场白、6 阶段流程、输出契约 |
-| `references/intake_flow.md` | 6 阶段状态机与提问脚本蓝本 |
-| `references/install.md` | Claude / Codex / Cursor / OpenClaw / Harness 五处安装指南 |
-| `references/methodology.md` | 方法论与写法的总论 |
-| `references/patterns.md` | 模块结构、bullet 模式与示例模板 |
-| `references/lexicon.md` | 行业缩写与术语 |
-| `references/ats_layout.md` | ATS 格式与排版硬约束 |
-| `references/recruiter_habits.md` | HR 阅读模型与秒级扫读偏好 |
-| `references/interview_prep.md` | 简历 → 面试预测问题库 |
-| `references/templates.md` | LaTeX / Marp / HTML 三套简历导出模板 |
-| `references/examples.md` | 输出示例 |
-| `scripts/validate_output.py` | 中文四行总结校验器 |
-| `scripts/validate_section.py` | 中文非总结模块校验器 |
-| `scripts/validate_output_en.py` | 英文四行总结校验器 |
-| `scripts/validate_section_en.py` | 英文非总结模块校验器 |
-| `scripts/test_*.py` | 校验器回归测试套件（88 个测试） |
-
 ## 快速开始
 
 ### 用户端
